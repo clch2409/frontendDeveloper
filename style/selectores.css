@@ -1,0 +1,20 @@
+/* * Selector descendiente: Todos los elementos que sean de ese tipo dentro del contenedor anterior, 
+* son seleccionados*/
+header div{
+    background-color: palegreen;
+}
+
+/* * Selector hijo directo: Solo selecciona a las etiquetas que sean hijas de la padre. */
+div > p{
+    background-color: paleturquoise;
+}
+
+/* * General de hermanos: Selecciona a todos las etiquetas que estén el mismo nivel y del mismo tipo */
+footer div ~ p{
+    background-color: palevioletred;
+}
+/* *Elemento adyacente: Selecciona a la etiqueta que se encuentra directamente cercana a la otra. */
+header + section{
+    background-color: lightcyan;
+    color: white;
+}

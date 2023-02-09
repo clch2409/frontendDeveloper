@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ! Las pseudoclases se expresan con dos puntos y condicionan el estilo de un estado de un elemento */
+/* * Selecciona el hijo dependiendo del número */
+div:nth-child(2){
+    color: orange;
+}
+
+div > p{
+    color: crimson;
+}
+
+div > p:hover{
+    color: blue;
+}
+
+/* ! Los pseudoelementos con cuatro puntos y condicionan una parte específica de un elemento */
+div > p::after{
+    content: "😁";
+}
+
+div > p:hover:after{
+    content: "😢";
+}
