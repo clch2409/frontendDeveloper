@@ -42,3 +42,25 @@ Tipos de posicionamiento:
 3. Fixed -> Este se queda posicionado en una zona y afecta al espaciado de los otros elementos
 4. Relative -> Sirve como ancla para aquellos elementos hijos que se encuentren con un position: absolute.
 5. Absolute -> No sigue el flujo normal de la página, se posiciona con el contenedor padre más próximo.
+
+## Arquitecturas CSS
+
+### **Beneficios**
+
+1. Ayuda a que el código sea más predecible, ayuda a que sea más legible el código.
+2. Se vuelve reutilizable, que no haya necesidad de hacerle cambios al mismo o que se pueda usar para proyectos en el futuro.
+3. Que al momento de que se presente un error en el proyecto, podamos resolverlo de la mejor manera.
+4. Que sea escalable, lo que permite la continua mejora del mismo.
+
+### **Buenas Practicas gracias a Arquitectura**
+
+1. Crear lineamientos, todos trabajan de la misma manera.
+2. Crear documentación para las personas que se unan al proyecto, se conozca lo que se hace y los lineamientos que el grupo tiene para trabajar.
+
+## Metodologías CSS
+
+* OCSS
+* BEM
+* SMACSS
+* Atomic Desing
+* ITCSS
