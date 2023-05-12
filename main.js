@@ -130,7 +130,7 @@ function placeProducts(arr){
         
         const figure = document.createElement('figure')
         const imageCart = document.createElement('img')
-        imageCart.setAttribute('src', './icons/bt_add_to_cart.svg') 
+        imageCart.setAttribute('src', './cursoPractico/icons/bt_add_to_cart.svg') 
 
         //!Agregando las etiquetas de contenido a las contenedoras (adentro hacia afuera)
         figure.appendChild(imageCart)
